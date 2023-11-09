@@ -1,0 +1,235 @@
+body {
+    background: #181E34;
+    line-height: 150%;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+}
+
+.container {
+    max-width: 930px;
+    margin: 0 auto;
+    padding: 0 15px;
+    height: 100%;
+}
+
+/* === Header start === */
+
+.header {
+    padding: 30px 0 36px 0;
+}
+
+.header-inner {
+    display: flex;
+    align-items: center;
+}
+
+.header_nav {
+    margin-left: auto;
+}
+
+.header_nav-list {
+    display: flex;
+}
+
+.header_nav-list_item {
+    margin-right: 30px;
+}
+
+.header_nav-list_item:last-child {
+    margin-right: 34px;
+}
+
+.header-button {
+    background: #fff;
+    border-radius: 100px;
+    color: #2766AE;
+    padding: 14px 30px;
+    font-weight: 500;
+}
+
+/* === Header end === */
+
+/* === Section hero start === */
+
+.hero {
+    padding: 120px 0;
+    background: url("../img/back.png") 10% 50% / cover no-repeat;
+}
+
+.hero-title {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 49px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.hero-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-text {
+    max-width: 436px;
+}
+
+.hero-text span {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #01A2CB;
+}
+
+#hero-text {
+    margin-bottom: 15px;
+}
+
+.hero-buttons {
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    width: 100%;
+}
+
+.hero-buttons-one {
+    border-radius: 100px;
+    padding: 18px 30px;
+    background: linear-gradient(180deg, #00A4CC 0%, #2766AE 100%);
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.hero-buttons-two {
+    border-radius: 100px;
+    padding: 18px 30px;
+    background: linear-gradient(95deg, #00A4CC 6.7%, #2766AE 91.35%);
+    max-width: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-buttons-two img {
+    margin-left: 4px;
+}
+
+/* === Section hero end === */
+
+/* === Section cards start === */
+
+.cards {
+    padding: 120px 0;
+}
+
+.cards-title {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 49px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.cards-text {
+    text-align: center;
+    max-width: 513px;
+    width: 100%;
+    margin: 0 auto 60px;
+}
+
+.cards-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -14px;
+    margin-bottom: -28px;
+    padding-bottom: 30px;
+}
+
+.cards-row-item {
+    margin-bottom: 28px;
+    padding: 0 14px;
+    flex: 0 0 25%;
+}
+
+.cards-row-item-inner {
+    border-radius: 16px;
+    border: 2px solid #176BAE;
+    background: #197CB8;
+    padding: 28px 25px;
+    box-shadow: 4px 4px 13px 0px rgba(5, 13, 41, 0.76);
+}
+
+.cards-row-item h3 {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 22px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.cards-row-item p {
+    text-align: center;
+}
+
+.cards-button {
+    border-radius: 100px;
+    padding: 18px 30px;
+    background: linear-gradient(180deg, #00A4CC 0%, #2766AE 100%);
+    text-align: center;
+    max-width: 436px;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+/* === Section cards end === */
+
+/* === Footer start === */
+
+.foot {
+    border-top: 1px solid #323952;
+    padding: 60px 0;
+}
+
+.footer-inner {
+    display: flex;
+}
+
+
+.foot-logotext img {
+    margin-bottom: 15px;
+}
+
+.foot-text {
+    max-width: 267px;
+    width: 100%;
+}
+
+.foot-logotext {
+    margin-right: 197px;
+}
+
+.foot-row-title {
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.foot-row {
+    margin-right: 117px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+li:last-child {
+    margin-bottom: 0;
+}
+
+
+
+
+/* === Footer end === */
